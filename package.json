@@ -43,7 +43,17 @@
     "@storybook/addon-essentials": "^6.2.9",
     "@storybook/addon-links": "^6.2.9",
     "@storybook/react": "^6.2.9",
-    "themeprovider-storybook": "^1.7.1"
+    "@types/react": "^17.0.5",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-transition-group": "^4.4.1",
+    "@types/styled-components": "^5.1.9",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-styled-components": "^1.12.0",
+    "themeprovider-storybook": "^1.7.1",
+    "rollup": "^2.47.0",
+    "typescript": "^4.2.4"
   },
   "peerDependencies": {
     "react": "^17.0.2",
