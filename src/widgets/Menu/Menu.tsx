@@ -74,6 +74,7 @@ const Menu: React.FC<NavProps> = ({
   links,
   profile,
   children,
+  customLogo
 }) => {
   const { isXl } = useMatchBreakpoints();
   const isMobile = isXl === false;
@@ -121,6 +122,7 @@ const Menu: React.FC<NavProps> = ({
           togglePush={() => setIsPushed((prevState: boolean) => !prevState)}
           isDark={isDark}
           href={homeLink?.href ?? "/"}
+          customLogo={customLogo}
         />
         <Flex>
           <UserBlock account={account} login={login} logout={logout} />
